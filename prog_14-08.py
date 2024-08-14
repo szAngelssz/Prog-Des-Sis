@@ -1,22 +1,25 @@
 from teste import *
 from time import sleep
 
+TEMPO = 1
 
-_tempo = 1
 print('\nSeja bem-vinde! ')
 nome = input('Qual o seu nome? ')
-sleep(_tempo)
+sleep(TEMPO)
+
 print(f'\nSeja bem-vinde, {nome}!')
-sleep(_tempo)
+sleep(TEMPO)
+
 print('\nComo posso te ajudar?')
 print("""\n1 - Coxinha
 2 - Pão de queijo
 3 - Pastel
 4 - Coca-cola""")
+
 while True:
-    sleep(_tempo)
+    sleep(TEMPO)
     opcao = int(input('\nQual a sua opção? '))
-    sleep(_tempo)
+    sleep(TEMPO)
     match opcao:
         case 1:
             print(f'\nO valor é {formatar_reais(3)} por coxinha.')
