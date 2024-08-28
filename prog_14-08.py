@@ -13,9 +13,9 @@ def main():
     
     print('\nComo posso te ajudar?')
     print("""\n1 - Coxinha
-    2 - Pão de queijo
-    3 - Pastel
-    4 - Coca-cola""")
+2 - Pão de queijo
+3 - Pastel
+4 - Coca-cola""")
     
     while True:
         sleep(TEMPO)
