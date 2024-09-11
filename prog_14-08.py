@@ -1,6 +1,7 @@
 from teste import *
 from time import sleep
 
+
 def main():
     TEMPO = 1
     
@@ -37,5 +38,6 @@ def main():
             case _:
                 print('\nFavor, digite uma opção válida!')
                 continue
+
 
 main()
